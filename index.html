@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Proyectos de neoruben</title>
-  <meta name="description" content="Apps Android y herramientas para Kobo de neoruben: Kobodroid, OneRate, MercaStats, LidlStats, Voy, PayFilter y más.">
+  <meta name="description" content="Apps Android y herramientas para Kobo de neoruben: Kobodroid, OneRate, MercaStats, LidlStats, Voy, PayFilter, MercaStats Docker y más.">
   <meta property="og:title" content="Proyectos de neoruben">
   <meta property="og:description" content="Apps Android y herramientas para Kobo.">
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/55212834?v=4">
@@ -167,6 +167,7 @@
     .lidlstats .actions .primary { background: #fff000; color: #0050aa; }
     .voy         { --accent: #00a884; --accent2: #075e54; }
     .payfilter   { --accent: #2563EB; --accent2: #1E3A8A; }
+    .mercadocker { --accent: #1d63ed; --accent2: #007a33; }
     .readingtime { --accent: #2b2b2b; --accent2: #6b6b6b; }
     .dictmanager { --accent: #1f6feb; --accent2: #0b3d91; }
 
@@ -215,6 +216,7 @@
         </div>
         <div class="stats">
           <div><b>6</b><span data-es>apps Android</span><span data-en>Android apps</span></div>
+          <div><b>1</b><span data-es>servidor Docker</span><span data-en>Docker server</span></div>
           <div><b>2</b><span data-es>herramientas Kobo</span><span data-en>Kobo tools</span></div>
           <div><b>100%</b><span data-es>gratis</span><span data-en>free</span></div>
         </div>
@@ -349,6 +351,35 @@
             <div class="actions">
               <a class="btn primary" href="https://github.com/neoruben/PayFilter/releases/latest" target="_blank" rel="noopener"><span data-es>Descargar APK</span><span data-en>Download APK</span></a>
               <a class="btn" href="https://github.com/neoruben/PayFilter" target="_blank" rel="noopener"><span data-es>Código</span><span data-en>Source</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="servidor">
+      <h2 data-es>Para tu servidor</h2><h2 data-en>Self-hosted</h2>
+      <p class="section-sub" data-es>Se instala con Docker en un PC, un NAS o una Raspberry Pi.</p>
+      <p class="section-sub" data-en>Install it with Docker on a PC, a NAS or a Raspberry Pi.</p>
+
+      <div class="grid">
+        <!-- MercaStats Docker -->
+        <article class="card wide mercadocker">
+          <div class="media">
+            <div class="pattern"></div>
+            <img class="big-icon" src="img/mercastats-icon.webp" alt="MercaStats Docker" loading="lazy">
+          </div>
+          <div class="body">
+            <div class="title">
+              <img src="img/mercastats-icon.webp" alt="">
+              <div><h3>MercaStats Docker</h3><span class="kind" data-es>Tickets de Mercadona en tu servidor</span><span class="kind" data-en>Mercadona receipts on your server</span></div>
+            </div>
+            <p data-es>Las estadísticas de MercaStats desde el navegador del ordenador o del móvil: lee los tickets de tu correo o de una carpeta, con varios usuarios y la evolución del precio de cada producto. Todos los datos se quedan en tu servidor.</p>
+            <p data-en>MercaStats stats from your computer's or phone's browser: it reads receipts from your email or a folder, supports several users and shows each product's price history. All your data stays on your server.</p>
+            <div class="tags"><span>Docker</span><span>Kotlin</span><span>Ktor</span><span>amd64 · arm64</span></div>
+            <div class="actions">
+              <a class="btn primary" href="https://github.com/neoruben/mercastats-docker#instalación" target="_blank" rel="noopener"><span data-es>Cómo instalarlo</span><span data-en>How to install</span></a>
+              <a class="btn" href="https://github.com/neoruben/mercastats-docker" target="_blank" rel="noopener"><span data-es>Código</span><span data-en>Source</span></a>
             </div>
           </div>
         </article>
